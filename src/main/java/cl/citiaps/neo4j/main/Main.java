@@ -29,8 +29,6 @@ public class Main {
 
 			System.out.println(session.isOpen());
 
-			List<MongoCollection<Document>> collections = new ArrayList<>();
-			collections.add(collection);
 
 			TwitterProcessor twitterProcessor = new TwitterProcessor();
 
